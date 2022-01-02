@@ -1,0 +1,9 @@
+Classificazione delle zone e degli agglomerati del periodo 2016-2020
+
+AGG Milano
+AGG Bergamo
+AGG Brescia
+ZONA A Pianura ad elevata urbanizzazione
+ZONA B Zona di pianura
+ZONA C Prealpi, Appennino e Montagna (C1 e C2)
+ZONA D Fondovalle

@@ -129,4 +129,5 @@ dmypy.json
 .pyre/
 
 #Cartelle
-Datasets/
+Datasets/data_meteo/
+Datasets/old_data_2021/

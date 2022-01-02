@@ -1,0 +1,5 @@
+dati_sensori_aria_20xx.csv	(IdSensore, Data, Valore, Stato, idOperatore)
+dati_sensori_meteo_20xx.parquet	(IdSensore, Data, Valore, Stato, idOperatore)
+Stazioni_Meteorologiche.csv	(IdSensore, Tipologia, Unità DiMisura, IdStazione, NomeStazione, Quota, Provincia, DataStart, DataStop, Storico, UTM_Nord, UTM_Est, lng, lat, location)
+Stazioni_qualita__dell_aria.csv	(IdSensore, NomeTipoSensore, UnitaMisura, Idstazione, NomeStazione, Quota, Provincia, Comune, Storico, DataStart, DataStop, Utm_Nord, UTM_Est, lat, lng, location)
+classificazione_comuni_ABCD.csv	(Provincia, Codice Istat, Comune, Zona, Residenti 2008, Superficie (ha))

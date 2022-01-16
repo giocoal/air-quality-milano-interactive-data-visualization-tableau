@@ -128,5 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+#Tableau file temporanei
+.twbr
+
 #Cartelle
 Data/data_meteo

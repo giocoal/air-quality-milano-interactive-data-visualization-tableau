@@ -98,12 +98,14 @@ dcolorsc = discrete_colorscale(bvals, colors[::-1])
 
 fig = go.Figure(data=go.Heatmap(
         x= [aria_milano_96_21['Data'].dt.month, aria_milano_96_21['Data'].dt.day],
-        y= aria_milano_96_21['Data'].dt.year))
-fig.update_traces(z= aria_milano_96_21['IQA'], selector=dict(type='heatmap'))
+        y= aria_milano_96_21['Data'].dt.year,
+        colorscale=dcolorsc))
+fig.update_traces(z= aria_milano_96_21['IQA_numerico'], selector=dict(type='heatmap'))
 fig.show()
 
-fig = px.imshow(
+"""fig = px.imshow(
         x= [aria_milano_96_21['Data'].dt.month, aria_milano_96_21['Data'].dt.day],
         y= aria_milano_96_21['Data'].dt.year)
 fig.update_xaxes(side="top")
 fig.show()
+"""

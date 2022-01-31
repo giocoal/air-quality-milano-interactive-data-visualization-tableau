@@ -71,8 +71,8 @@
       <column caption='Timeline Step' datatype='integer' name='[Parameter 3]' param-domain-type='any' role='measure' type='quantitative' value='5'>
         <calculation class='tableau' formula='5' />
       </column>
-      <column caption='Selected Event' datatype='string' name='[Parameter 4]' param-domain-type='any' role='measure' type='nominal' value='&quot;1&quot;'>
-        <calculation class='tableau' formula='&quot;1&quot;' />
+      <column caption='Selected Event' datatype='string' name='[Parameter 4]' param-domain-type='any' role='measure' type='nominal' value='&quot;3&quot;'>
+        <calculation class='tableau' formula='&quot;3&quot;' />
       </column>
       <column caption='Timeline Years' datatype='integer' name='[Parameter 5]' param-domain-type='any' role='measure' type='quantitative' value='30'>
         <calculation class='tableau' formula='30' />
@@ -321,9 +321,12 @@
         </groupfilter>
       </group>
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_GB' class='hyper' dbname='C:/Users/giorg/OneDrive - Università degli Studi di Milano-Bicocca/Laurea Magistrale - Data Science/directory_progetti/Data_Visualization_project_21_22/Prove_Tableau/Origini Dati/riassunto con percentuali.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_GB' class='hyper' dbname='C:/Users/giorg/OneDrive - Università degli Studi di Milano-Bicocca/Laurea Magistrale - Data Science/directory_progetti/Data_Visualization_project_21_22/Prove_Tableau/Origini Dati/riassunto con percentuali.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='01/28/2022 08:51:31 PM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='riassunto con percentuali' increment-value='%null%' refresh-type='create' rows-inserted='5' timestamp-start='2022-01-28 20:51:30.611' />
+          </refresh>
           <metadata-records>
             <metadata-record class='column'>
               <remote-name>Macrosettori</remote-name>
@@ -338,6 +341,7 @@
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LIT_RIT' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[riassunto con percentuali ridotto.csv_134029C46F9249D3A5B72724F2B6DF79]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Settori</remote-name>
@@ -352,6 +356,7 @@
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LIT_RIT' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[riassunto con percentuali ridotto.csv_134029C46F9249D3A5B72724F2B6DF79]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>SO2</remote-name>
@@ -365,6 +370,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[riassunto con percentuali ridotto.csv_134029C46F9249D3A5B72724F2B6DF79]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>PM10</remote-name>
@@ -378,6 +384,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[riassunto con percentuali ridotto.csv_134029C46F9249D3A5B72724F2B6DF79]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>NOx</remote-name>
@@ -391,6 +398,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[riassunto con percentuali ridotto.csv_134029C46F9249D3A5B72724F2B6DF79]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>PM2.5</remote-name>
@@ -404,6 +412,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[riassunto con percentuali ridotto.csv_134029C46F9249D3A5B72724F2B6DF79]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Precursori O3</remote-name>
@@ -417,6 +426,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[riassunto con percentuali ridotto.csv_134029C46F9249D3A5B72724F2B6DF79]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>SO2 %</remote-name>
@@ -430,6 +440,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[riassunto con percentuali ridotto.csv_134029C46F9249D3A5B72724F2B6DF79]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>PM10 %</remote-name>
@@ -443,6 +454,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[riassunto con percentuali ridotto.csv_134029C46F9249D3A5B72724F2B6DF79]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>NOx %</remote-name>
@@ -456,6 +468,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[riassunto con percentuali ridotto.csv_134029C46F9249D3A5B72724F2B6DF79]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>PM2.5 %</remote-name>
@@ -469,6 +482,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[riassunto con percentuali ridotto.csv_134029C46F9249D3A5B72724F2B6DF79]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Precursori O3 %</remote-name>
@@ -482,6 +496,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[riassunto con percentuali ridotto.csv_134029C46F9249D3A5B72724F2B6DF79]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -895,7 +910,7 @@
         </groupfilter>
       </group>
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_GB' class='hyper' dbname='C:/Users/giorg/OneDrive - Università degli Studi di Milano-Bicocca/Laurea Magistrale - Data Science/directory_progetti/Data_Visualization_project_21_22/Prove_Tableau/Origini Dati/radiazione_globale+.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_GB' class='hyper' dbname='C:/Users/giorg/OneDrive - Università degli Studi di Milano-Bicocca/Laurea Magistrale - Data Science/directory_progetti/Data_Visualization_project_21_22/Prove_Tableau/Origini Dati/radiazione_globale+.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='01/28/2022 08:51:20 PM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='radiazione_globale.csv_74E8F74875DE4E8AA4334D2EB697B1EB' table='[Extract].[radiazione_globale.csv_74E8F74875DE4E8AA4334D2EB697B1EB]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
             <relation name='radiazione_globale.csv_74E8F74875DE4E8AA4334D2EB697B1EB' table='[Extract].[radiazione_globale.csv_74E8F74875DE4E8AA4334D2EB697B1EB]' type='table' />
@@ -917,6 +932,9 @@
             <map key='[index]' value='[radiazione_globale.csv_74E8F74875DE4E8AA4334D2EB697B1EB].[index]' />
             <map key='[valore]' value='[sinusoide.csv_9CC78ED57E59465AA7F7E711EC38B87E].[valore]' />
           </cols>
+          <refresh>
+            <refresh-event add-from-file-path='radiazione_globale+' increment-value='%null%' refresh-type='create' rows-inserted='1098' timestamp-start='2022-01-28 20:51:18.688' />
+          </refresh>
           <metadata-records>
             <metadata-record class='column'>
               <remote-name>F1</remote-name>
@@ -930,6 +948,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>366</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[radiazione_globale.csv_74E8F74875DE4E8AA4334D2EB697B1EB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>index</remote-name>
@@ -943,6 +962,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>366</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[radiazione_globale.csv_74E8F74875DE4E8AA4334D2EB697B1EB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Valore_mean_max</remote-name>
@@ -956,6 +976,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>366</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[radiazione_globale.csv_74E8F74875DE4E8AA4334D2EB697B1EB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Valore_mean_mean</remote-name>
@@ -969,6 +990,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>366</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[radiazione_globale.csv_74E8F74875DE4E8AA4334D2EB697B1EB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Valore_mean_std</remote-name>
@@ -982,6 +1004,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>366</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[radiazione_globale.csv_74E8F74875DE4E8AA4334D2EB697B1EB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Data</remote-name>
@@ -995,6 +1018,7 @@
               <aggregation>Year</aggregation>
               <approx-count>366</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[radiazione_globale.csv_74E8F74875DE4E8AA4334D2EB697B1EB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>F1</remote-name>
@@ -1008,6 +1032,7 @@
               <aggregation>Year</aggregation>
               <approx-count>366</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sinusoide.csv_9CC78ED57E59465AA7F7E711EC38B87E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>valore</remote-name>
@@ -1021,6 +1046,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>184</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sinusoide.csv_9CC78ED57E59465AA7F7E711EC38B87E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>F1</remote-name>
@@ -1034,6 +1060,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>366</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[temperatura.csv_2088EBCA0E594332B97D6C897927399C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>index</remote-name>
@@ -1047,6 +1074,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>366</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[temperatura.csv_2088EBCA0E594332B97D6C897927399C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Valore_max_mean</remote-name>
@@ -1060,6 +1088,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>366</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[temperatura.csv_2088EBCA0E594332B97D6C897927399C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Valore_max_std</remote-name>
@@ -1073,6 +1102,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>366</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[temperatura.csv_2088EBCA0E594332B97D6C897927399C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Data</remote-name>
@@ -1086,6 +1116,7 @@
               <aggregation>Year</aggregation>
               <approx-count>366</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[temperatura.csv_2088EBCA0E594332B97D6C897927399C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -1740,7 +1771,7 @@
         </groupfilter>
       </group>
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_GB' class='hyper' dbname='C:/Users/giorg/OneDrive - Università degli Studi di Milano-Bicocca/Laurea Magistrale - Data Science/directory_progetti/Data_Visualization_project_21_22/Prove_Tableau/Origini Dati/Com01012021_g_WGS84.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_GB' class='hyper' dbname='C:/Users/giorg/OneDrive - Università degli Studi di Milano-Bicocca/Laurea Magistrale - Data Science/directory_progetti/Data_Visualization_project_21_22/Prove_Tableau/Origini Dati/Com01012021_g_WGS84.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='01/24/2022 08:23:52 PM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='CAP_AGG_MI.csv_B924C52A84284EC5B5EDE3EF8877FD6B' table='[Extract].[CAP_AGG_MI.csv_B924C52A84284EC5B5EDE3EF8877FD6B]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
             <relation name='Com01012021_g_WGS84.shp_DB5B3008C3A1491B97F69770185B7FFA' table='[Extract].[Com01012021_g_WGS84.shp_DB5B3008C3A1491B97F69770185B7FFA]' type='table' />
@@ -1774,6 +1805,9 @@
             <map key='[lat]' value='[location_sensori_MI.csv_F88EA5CA853845CBA5579D6322F0D527].[lat]' />
             <map key='[lng]' value='[location_sensori_MI.csv_F88EA5CA853845CBA5579D6322F0D527].[lng]' />
           </cols>
+          <refresh>
+            <refresh-event add-from-file-path='Com01012021_g_WGS84' increment-value='%null%' refresh-type='create' rows-inserted='8088' timestamp-start='2022-01-24 20:23:50.062' />
+          </refresh>
           <metadata-records>
             <metadata-record class='column'>
               <remote-name>COD_RIP</remote-name>
@@ -2324,9 +2358,12 @@
       <column datatype='date' name='[Year]' role='dimension' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='Events' datatype='table' name='[__tableau_internal_object_id__].[Events_3451B94A35624A40BC0A954ADEE5730E]' role='measure' type='quantitative' />
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_GB' class='hyper' dbname='C:/Users/giorg/OneDrive - Università degli Studi di Milano-Bicocca/Laurea Magistrale - Data Science/directory_progetti/Data_Visualization_project_21_22/Prove_Tableau/Origini Dati/Events (Dati_Timeline).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_GB' class='hyper' dbname='C:/Users/giorg/OneDrive - Università degli Studi di Milano-Bicocca/Laurea Magistrale - Data Science/directory_progetti/Data_Visualization_project_21_22/Prove_Tableau/Origini Dati/Events (Dati_Timeline).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='01/28/2022 08:51:06 PM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='Events (Dati_Timeline)' increment-value='%null%' refresh-type='create' rows-inserted='5' timestamp-start='2022-01-28 20:51:05.626' />
+          </refresh>
           <metadata-records>
             <metadata-record class='column'>
               <remote-name>Year</remote-name>
@@ -2340,6 +2377,7 @@
               <aggregation>Year</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Events_3451B94A35624A40BC0A954ADEE5730E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Event</remote-name>
@@ -2353,6 +2391,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Events_3451B94A35624A40BC0A954ADEE5730E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Text</remote-name>
@@ -2367,6 +2406,7 @@
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Events_3451B94A35624A40BC0A954ADEE5730E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Description</remote-name>
@@ -2381,6 +2421,7 @@
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Events_3451B94A35624A40BC0A954ADEE5730E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -2774,9 +2815,12 @@
         </folder>
       </_.fcp.SchemaViewerObjectModel.true...folders-common>
       <extract _.fcp.ObjectModelExtractV2.true...object-id='Migrated Data' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/giorg/OneDrive - Università degli Studi di Milano-Bicocca/Laurea Magistrale - Data Science/directory_progetti/Data_Visualization_project_21_22/Prove_Tableau/Workbook_Progetto.twb Files/Data/Timeline.twb Files/Timeline.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username=''>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/giorg/OneDrive - Università degli Studi di Milano-Bicocca/Laurea Magistrale - Data Science/directory_progetti/Data_Visualization_project_21_22/Prove_Tableau/Workbook_Progetto.twb Files/Data/Timeline.twb Files/Timeline.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='01/28/2022 03:21:51 AM' username=''>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='Timeline' increment-value='%null%' refresh-type='create' rows-inserted='42' timestamp-start='2022-01-28 03:21:50.840' />
+          </refresh>
           <metadata-records>
             <metadata-record class='column'>
               <remote-name>Year</remote-name>
@@ -3050,8 +3094,8 @@
         <column caption='Timeline Step' datatype='integer' name='[Parameter 3]' param-domain-type='any' role='measure' type='quantitative' value='5'>
           <calculation class='tableau' formula='5' />
         </column>
-        <column caption='Selected Event' datatype='string' name='[Parameter 4]' param-domain-type='any' role='measure' type='nominal' value='&quot;1&quot;'>
-          <calculation class='tableau' formula='&quot;1&quot;' />
+        <column caption='Selected Event' datatype='string' name='[Parameter 4]' param-domain-type='any' role='measure' type='nominal' value='&quot;3&quot;'>
+          <calculation class='tableau' formula='&quot;3&quot;' />
         </column>
         <column caption='Timeline Years' datatype='integer' name='[Parameter 5]' param-domain-type='any' role='measure' type='quantitative' value='30'>
           <calculation class='tableau' formula='30' />
@@ -3274,9 +3318,12 @@
         </groupfilter>
       </group>
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_GB' class='hyper' dbname='C:/Users/giorg/OneDrive - Università degli Studi di Milano-Bicocca/Laurea Magistrale - Data Science/directory_progetti/Data_Visualization_project_21_22/Prove_Tableau/Origini Dati/press_zama.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_GB' class='hyper' dbname='C:/Users/giorg/OneDrive - Università degli Studi di Milano-Bicocca/Laurea Magistrale - Data Science/directory_progetti/Data_Visualization_project_21_22/Prove_Tableau/Origini Dati/press_zama.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='01/28/2022 08:52:17 PM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='press_zama' increment-value='%null%' refresh-type='create' rows-inserted='366' timestamp-start='2022-01-28 20:52:16.918' />
+          </refresh>
           <metadata-records>
             <metadata-record class='column'>
               <remote-name>F1</remote-name>
@@ -3290,6 +3337,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>366</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[press_zama.csv_E1ECB139D65C4582B644CD360330052A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>month</remote-name>
@@ -3303,6 +3351,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>12</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[press_zama.csv_E1ECB139D65C4582B644CD360330052A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>day</remote-name>
@@ -3316,6 +3365,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>31</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[press_zama.csv_E1ECB139D65C4582B644CD360330052A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>press_mean</remote-name>
@@ -3329,6 +3379,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>323</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[press_zama.csv_E1ECB139D65C4582B644CD360330052A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>press_std</remote-name>
@@ -3342,6 +3393,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>366</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[press_zama.csv_E1ECB139D65C4582B644CD360330052A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>year</remote-name>
@@ -3355,6 +3407,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[press_zama.csv_E1ECB139D65C4582B644CD360330052A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Data</remote-name>
@@ -3368,6 +3421,7 @@
               <aggregation>Year</aggregation>
               <approx-count>366</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[press_zama.csv_E1ECB139D65C4582B644CD360330052A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -4027,9 +4081,12 @@
         </groupfilter>
       </group>
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='it_IT' class='hyper' dbname='C:/Users/giorg/OneDrive - Università degli Studi di Milano-Bicocca/Laurea Magistrale - Data Science/directory_progetti/Data_Visualization_project_21_22/Prove_Tableau/Origini Dati/aria_milano_96_21.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='it_IT' class='hyper' dbname='C:/Users/giorg/OneDrive - Università degli Studi di Milano-Bicocca/Laurea Magistrale - Data Science/directory_progetti/Data_Visualization_project_21_22/Prove_Tableau/Origini Dati/aria_milano_96_21.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='01/24/2022 08:24:08 PM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='aria_milano_96_21' increment-value='%null%' refresh-type='create' rows-inserted='9494' timestamp-start='2022-01-24 20:24:07.479' />
+          </refresh>
           <metadata-records>
             <metadata-record class='column'>
               <remote-name>F1</remote-name>
@@ -4043,6 +4100,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>9494</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Data</remote-name>
@@ -4056,6 +4114,7 @@
               <aggregation>Year</aggregation>
               <approx-count>9494</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Biossido di Azoto_Count_sensori</remote-name>
@@ -4069,6 +4128,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>25</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Biossido di Azoto_Indice numerico</remote-name>
@@ -4082,6 +4142,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Biossido di Azoto_Valore_interesse</remote-name>
@@ -4095,6 +4156,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1523</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Biossido di Azoto_Valore_interesse_std</remote-name>
@@ -4108,6 +4170,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>435</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Biossido di Zolfo_Count_sensori</remote-name>
@@ -4121,6 +4184,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>33</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Biossido di Zolfo_Indice numerico</remote-name>
@@ -4134,6 +4198,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Biossido di Zolfo_Valore_interesse</remote-name>
@@ -4147,6 +4212,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>536</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Biossido di Zolfo_Valore_interesse_std</remote-name>
@@ -4160,6 +4226,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>370</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Ozono_Count_sensori</remote-name>
@@ -4173,6 +4240,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>19</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Ozono_Indice numerico</remote-name>
@@ -4186,6 +4254,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Ozono_Valore_interesse</remote-name>
@@ -4199,6 +4268,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1976</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Ozono_Valore_interesse_std</remote-name>
@@ -4212,6 +4282,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>412</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>PM10 (SM2005)_Count_sensori</remote-name>
@@ -4225,6 +4296,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>19</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>PM10 (SM2005)_Indice numerico</remote-name>
@@ -4238,6 +4310,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>6</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>PM10 (SM2005)_Valore_interesse</remote-name>
@@ -4251,6 +4324,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1157</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>PM10 (SM2005)_Valore_interesse_std</remote-name>
@@ -4264,6 +4338,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>356</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Particelle sospese PM2.5_Count_sensori</remote-name>
@@ -4277,6 +4352,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>8</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Particelle sospese PM2.5_Indice numerico</remote-name>
@@ -4290,6 +4366,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>6</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Particelle sospese PM2.5_Valore_interesse</remote-name>
@@ -4303,6 +4380,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>739</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Particelle sospese PM2.5_Valore_interesse_std</remote-name>
@@ -4316,6 +4394,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>215</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>IQA_numerico</remote-name>
@@ -4329,6 +4408,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>6</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>IQA</remote-name>
@@ -4343,6 +4423,7 @@
               <approx-count>6</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aria_milano_96_21_normalizzato.csv_3160F32B17CD4BC5AE1A84D9E3F3A4D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -4390,7 +4471,7 @@
               <bucket>&quot;Scarsa&quot;</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[none:Calculation_591097513594761226:nk]' type='palette'>
+          <encoding attr='color' field='[none:IQA Biossido di Zolfo (copy)_241224119154982914:nk]' type='palette'>
             <map to='#4e79a7'>
               <bucket>&quot;Molto Buona&quot;</bucket>
             </map>
@@ -4410,24 +4491,29 @@
               <bucket>&quot;Scarsa&quot;</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[none:IQA Biossido di Zolfo (copy)_241224119154982914:nk]' type='palette'>
+          <encoding attr='color' field='[none:IQA colore (copy)_241224119153811456:nk]' type='palette'>
             <map to='#4e79a7'>
               <bucket>&quot;Molto Buona&quot;</bucket>
             </map>
             <map to='#59a14f'>
-              <bucket>&quot;Buona&quot;</bucket>
-            </map>
-            <map to='#bab0ac'>
               <bucket>%null%</bucket>
             </map>
-            <map to='#e15759'>
-              <bucket>&quot;Molto Scarsa&quot;</bucket>
+            <map to='#59a14f'>
+              <bucket>&quot;Buona&quot;</bucket>
             </map>
             <map to='#edc948'>
               <bucket>&quot;Accettabile&quot;</bucket>
             </map>
             <map to='#f28e2b'>
               <bucket>&quot;Scarsa&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:IQA Biossido di Azoto (copy)_241224119154782209:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Molto Buona&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>%null%</bucket>
             </map>
           </encoding>
           <encoding attr='color' field='[none:IQA Biossido di Zolfo (copy)_241224119155302403:nk]' type='palette'>
@@ -4470,29 +4556,24 @@
               <bucket>&quot;Scarsa&quot;</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[none:IQA colore (copy)_241224119153811456:nk]' type='palette'>
+          <encoding attr='color' field='[none:Calculation_591097513594761226:nk]' type='palette'>
             <map to='#4e79a7'>
               <bucket>&quot;Molto Buona&quot;</bucket>
             </map>
             <map to='#59a14f'>
+              <bucket>&quot;Buona&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
               <bucket>%null%</bucket>
             </map>
-            <map to='#59a14f'>
-              <bucket>&quot;Buona&quot;</bucket>
+            <map to='#e15759'>
+              <bucket>&quot;Molto Scarsa&quot;</bucket>
             </map>
             <map to='#edc948'>
               <bucket>&quot;Accettabile&quot;</bucket>
             </map>
             <map to='#f28e2b'>
               <bucket>&quot;Scarsa&quot;</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[none:IQA Biossido di Azoto (copy)_241224119154782209:nk]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>&quot;Molto Buona&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>%null%</bucket>
             </map>
           </encoding>
         </style-rule>
@@ -10700,13 +10781,13 @@
                 <format attr='color' value='#ffffff' />
               </style-rule>
               <style-rule element='mark'>
-                <format attr='mark-labels-show' value='true' />
                 <format attr='size' value='1.3953038454055786' />
                 <format attr='mark-labels-mode' value='selection' />
                 <format attr='mark-color' value='#ffffff' />
                 <format attr='mark-transparency' value='173' />
                 <format attr='has-halo' value='true' />
                 <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-show' value='true' />
               </style-rule>
             </style>
           </pane>
@@ -10757,6 +10838,128 @@
         </panes>
         <rows>[federated.0qzvmhc088h1dw131kffp1enihcd].[Latitude (generated)]</rows>
         <cols>[federated.0qzvmhc088h1dw131kffp1enihcd].[Longitude (generated)]</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor _.fcp.Layers.true...pane-specification-id='0'>
+                  <x-fields>
+                    <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[Longitude (generated)]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[Latitude (generated)]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[clct:Geometry:nk]</field>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[none:COMUNE:nk]</field>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[none:Calculation_1696731225296785408:nk]</field>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[none:Calculation_1696731225296867329:nk]</field>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[Latitude (generated)]</field>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[Longitude (generated)]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>13905082247005348729</value>
+                <value>&quot;Milano&quot;</value>
+                <value>true</value>
+                <value>false</value>
+                <value>45.460559802944495</value>
+                <value>9.1592191971886336</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor _.fcp.Layers.true...pane-specification-id='0'>
+                  <x-fields>
+                    <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[Longitude (generated)]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[Latitude (generated)]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[clct:Geometry:nk]</field>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[none:COMUNE:nk]</field>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[none:Calculation_1696731225296785408:nk]</field>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[none:Calculation_1696731225296867329:nk]</field>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[Latitude (generated)]</field>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[Longitude (generated)]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>13156227783050304837</value>
+                <value>&quot;Busto Arsizio&quot;</value>
+                <value>true</value>
+                <value>false</value>
+                <value>45.606890819731575</value>
+                <value>8.8459852061459845</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor _.fcp.Layers.true...pane-specification-id='0'>
+                  <x-fields>
+                    <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[Longitude (generated)]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[Latitude (generated)]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[clct:Geometry:nk]</field>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[none:COMUNE:nk]</field>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[none:Calculation_1696731225296785408:nk]</field>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[none:Calculation_1696731225296867329:nk]</field>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[Latitude (generated)]</field>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[Longitude (generated)]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>14787737501772925182</value>
+                <value>&quot;Como&quot;</value>
+                <value>true</value>
+                <value>false</value>
+                <value>45.804761440377909</value>
+                <value>9.0812218185767719</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='3' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor _.fcp.Layers.true...pane-specification-id='0'>
+                  <x-fields>
+                    <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[Longitude (generated)]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[Latitude (generated)]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[clct:Geometry:nk]</field>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[none:COMUNE:nk]</field>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[none:Calculation_1696731225296785408:nk]</field>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[none:Calculation_1696731225296867329:nk]</field>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[Latitude (generated)]</field>
+                  <field>[federated.0qzvmhc088h1dw131kffp1enihcd].[Longitude (generated)]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>6653637273787445787</value>
+                <value>&quot;Monza&quot;</value>
+                <value>true</value>
+                <value>false</value>
+                <value>45.590498506725943</value>
+                <value>9.2806512957320333</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
       </table>
       <simple-id uuid='{8826D784-A49D-4699-B795-9091CF550929}' />
     </worksheet>
@@ -11373,8 +11576,8 @@
             <column caption='Timeline End' datatype='integer' name='[Parameter 2]' param-domain-type='any' role='measure' type='quantitative' value='2021'>
               <calculation class='tableau' formula='2021' />
             </column>
-            <column caption='Selected Event' datatype='string' name='[Parameter 4]' param-domain-type='any' role='measure' type='nominal' value='&quot;1&quot;'>
-              <calculation class='tableau' formula='&quot;1&quot;' />
+            <column caption='Selected Event' datatype='string' name='[Parameter 4]' param-domain-type='any' role='measure' type='nominal' value='&quot;3&quot;'>
+              <calculation class='tableau' formula='&quot;3&quot;' />
             </column>
           </datasource-dependencies>
           <datasource-dependencies datasource='federated.1jpa01d0exuai61azqqk60zpjvgo'>
@@ -11690,8 +11893,8 @@
             <datasource name='Parameters' />
           </datasources>
           <datasource-dependencies datasource='Parameters'>
-            <column caption='Selected Event' datatype='string' name='[Parameter 4]' param-domain-type='any' role='measure' type='nominal' value='&quot;1&quot;'>
-              <calculation class='tableau' formula='&quot;1&quot;' />
+            <column caption='Selected Event' datatype='string' name='[Parameter 4]' param-domain-type='any' role='measure' type='nominal' value='&quot;3&quot;'>
+              <calculation class='tableau' formula='&quot;3&quot;' />
             </column>
           </datasource-dependencies>
           <datasource-dependencies datasource='federated.1jpa01d0exuai61azqqk60zpjvgo'>
@@ -12949,8 +13152,8 @@
           </layout-options>
           <size maxheight='3950' minheight='3950' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='474' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='99484' id='473' param='vert' type-v2='layout-flow' w='99000' x='500' y='258'>
+            <zone h='100000' id='478' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='99484' id='477' param='vert' type-v2='layout-flow' w='99000' x='500' y='258'>
                 <zone fixed-size='142' forceUpdate='true' h='1871' id='271' type-v2='text' w='9375' x='10188' y='2968'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#1b1b1b' fontname='Georgia' fontsize='20'>HOME</run>
@@ -14500,8 +14703,8 @@
           </layout-options>
           <size maxheight='4200' minheight='4200' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='479' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='99484' id='478' param='vert' type-v2='layout-flow' w='99000' x='500' y='258'>
+            <zone h='100000' id='483' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='99484' id='482' param='vert' type-v2='layout-flow' w='99000' x='500' y='258'>
                 <zone fixed-size='142' forceUpdate='true' h='1871' id='271' type-v2='text' w='9375' x='10188' y='2968'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#d4d4d4' fontname='Georgia' fontsize='20'>HOME</run>
@@ -16068,8 +16271,8 @@
           </layout-options>
           <size maxheight='4550' minheight='4550' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='451' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='99484' id='450' param='vert' type-v2='layout-flow' w='99000' x='500' y='258'>
+            <zone h='100000' id='455' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='99484' id='454' param='vert' type-v2='layout-flow' w='99000' x='500' y='258'>
                 <zone fixed-size='142' forceUpdate='true' h='1871' id='271' type-v2='text' w='9375' x='10188' y='2968'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#d4d4d4' fontname='Georgia' fontsize='20'>HOME</run>
@@ -17722,8 +17925,8 @@
           </layout-options>
           <size maxheight='5200' minheight='5200' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='474' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='99484' id='473' param='vert' type-v2='layout-flow' w='99000' x='500' y='258'>
+            <zone h='100000' id='478' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='99484' id='477' param='vert' type-v2='layout-flow' w='99000' x='500' y='258'>
                 <zone fixed-size='142' forceUpdate='true' h='1871' id='271' type-v2='text' w='9375' x='10188' y='2968'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#d4d4d4' fontname='Georgia' fontsize='20'>HOME</run>
@@ -19219,8 +19422,8 @@
           </layout-options>
           <size maxheight='3400' minheight='3400' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='479' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='99484' id='478' param='vert' type-v2='layout-flow' w='99000' x='500' y='258'>
+            <zone h='100000' id='483' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='99484' id='482' param='vert' type-v2='layout-flow' w='99000' x='500' y='258'>
                 <zone fixed-size='142' h='1871' id='293' type-v2='dashboard-object' w='9375' x='10188' y='2968'>
                   <button action='tabdoc:goto-sheet window-id=&quot;{B0948286-9671-4344-9DD4-EBB1247D884F}&quot;'>
                     <button-visual-state>
@@ -19802,7 +20005,7 @@
       <simple-id uuid='{456C266D-8008-45AE-A973-5DF942085D54}' />
     </dashboard>
   </dashboards>
-  <windows source-height='74'>
+  <windows source-height='156'>
     <window class='worksheet' name='Heatmap_OG'>
       <cards>
         <edge name='left'>
@@ -20188,7 +20391,7 @@
       </cards>
       <simple-id uuid='{7A063BC8-5E01-4BED-8631-47A16B85CAF9}' />
     </window>
-    <window class='worksheet' maximized='true' name='MAPPA AGG MI e STAZIONI'>
+    <window class='worksheet' name='MAPPA AGG MI e STAZIONI'>
       <cards>
         <edge name='left'>
           <strip size='219'>
@@ -20542,7 +20745,7 @@
       </viewpoint>
       <simple-id uuid='{2D1A824B-3732-4BBE-A863-353C0ED67152}' />
     </window>
-    <window class='dashboard' name='Dashboard_HOME'>
+    <window class='dashboard' maximized='true' name='Dashboard_HOME'>
       <viewpoints>
         <viewpoint name='Bar Chart_IQA'>
           <zoom type='entire-view' />
@@ -20567,7 +20770,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='112' />
+      <active id='-1' />
       <grid grid-size='26' />
       <simple-id uuid='{B0948286-9671-4344-9DD4-EBB1247D884F}' />
     </window>

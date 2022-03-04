@@ -8,3 +8,10 @@ Abbiamo cercato di rispondere a questi, e altri, quesiti analizzando i dati di A
 ### Anteprima della prima pagina dell'infografica
 
 ![](https://github.com/giocoal/Air_Pollution_Data_Visualization_Tableau/raw/main/Report/Immagini%20per%20report/Dashboard_HOME.png)
+
+### Anteprime delle schede di approfondimento sui singoli inquinanti 
+
+![](https://github.com/giocoal/Air_Pollution_Data_Visualization_Tableau/raw/main/Report/Immagini%20per%20report/Dashboard_NO2.png)
+![](https://github.com/giocoal/Air_Pollution_Data_Visualization_Tableau/raw/main/Report/Immagini%20per%20report/Dashboard_OZONO.png)
+![](https://github.com/giocoal/Air_Pollution_Data_Visualization_Tableau/raw/main/Report/Immagini%20per%20report/Dashboard_PM.png)
+![](https://github.com/giocoal/Air_Pollution_Data_Visualization_Tableau/raw/main/Report/Immagini%20per%20report/Dashboard_SO2.png)
